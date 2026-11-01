@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nour Ben Ali - Portfolio</title>
+  </head>
+
+  <body>
+    <header id="top">
+      <h1>Nour Ben Ali</h1>
+      <p><strong>Développeuse web basée à Tunis</strong></p>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <section id="about-me">
+        <h2>About me</h2>
+        <img
+          src="avatarportfolio.jpg"
+          alt="Photo professionnelle"
+          width="200"
+        />
+        <p>
+          Développeuse web motivée, passionnée par la création de sites simples
+          et accessibles. Je cherche une première expérience pour progresser et
+          apprendre en équipe.
+        </p>
+
+        <h3>Ce qui me motive</h3>
+        <ul>
+          <li>Ecrire des codes sémantiques clairs</li>
+          <li>Apprendre à maîtriser de nouveaux outils</li>
+          <li>
+            Créer des projets qui aident des personnes à concrétiser leurs idées
+          </li>
+        </ul>
+
+        <h3>Ecouter ma présentation</h3>
+        <audio src="audio-portfolio.mp3" controls>
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <hr />
+
+      <section id="work">
+        <h2>Work</h2>
+
+        <h3>Project demo</h3>
+
+        <video
+          src="videoportfolionba26.mp4"
+          controls
+          width="500"
+          poster="demo-cover.jpg"
+        >
+          Your browser does not support the video tag.
+        </video>
+        <br />
+
+        <h3>Projects</h3>
+
+        <article>
+          <h4>Learn Git Checkpoint</h4>
+          <p>Un projet d'initiation à l'utilisation de Git et GitHub.</p>
+          <p>
+            <a href="https://github.com/nba26-prog/learn-git-checkpoint"
+              >Accéder au projet</a
+            >
+          </p>
+        </article>
+
+        <article>
+          <h4>Team Profile</h4>
+          <p>
+            Une page de profil construite en HTML et conservée à l'aide de Git
+            et GitHub.
+          </p>
+          <p>
+            <a href="https://github.com/nba26-prog/team-profile"
+              >Accéder au projet</a
+            >
+          </p>
+        </article>
+
+        <article>
+          <h4>Git Branch Workshop</h4>
+          <p>
+            Il s'agit d'un projet d'étude nécessitant des connaissances de
+            l'utilisataion de Git et GitHub et plus particulièrement la création
+            de branches.
+          </p>
+          <p>
+            <a href="https://github.com/nba26-prog/git-branch-workshop"
+              >Accéder au projet</a
+            >
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <section id="resume">
+        <h2>Resume</h2>
+
+        <h3>Education</h3>
+        <table border="1" cellpadding="6">
+          <caption>
+            Ma formation
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Année</th>
+              <th scope="col">Diplôme</th>
+              <th scope="col">Etablissement</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2026 - 2027</td>
+              <td>AI Developer Bootcamp</td>
+              <td>GoMyCode</td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>Master 2 en droit des sociétés et droit fiscal</td>
+              <td>Université Paris 1 Sorbonne</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Experience</h3>
+
+        <table border="1" cellpadding="6">
+          <caption>
+            Mon expérience professionnelle
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Année</th>
+              <th scope="col">Poste</th>
+              <th scope="col">Employeur</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023-2024</td>
+              <td>Juriste en droit des affaires</td>
+              <td>Cabinet d'avocats 2</td>
+            </tr>
+            <tr>
+              <td>2018-2022</td>
+              <td>Juriste en droit des sociétés</td>
+              <td>Cabinet d'avocats 1</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS (basics)</li>
+          <li>Git and GitHub</li>
+          <li>Teamwork</li>
+        </ul>
+
+        <h3>Languages</h3>
+        <ol>
+          <li>Français: Langue maternelle</li>
+          <li>Anglais: Courant "C1/C2"</li>
+          <li>Arabe : Courant</li>
+          <li>Espagnol : Intermédiaire</li>
+        </ol>
+      </section>
+
+      <hr />
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Vous pouvez me contacter par mail à cette adresse :
+          <a href="mailto:nourbenali26@gmail.com">nourbenali26@gmail.com</a>, ou
+          en utilisant le formulaire ci-dessous.
+        </p>
+
+        <form action="#" method="post">
+          <p>
+            <label for="nom">Nom</label><br />
+            <input type="text" id="nom" name="nom" required />
+          </p>
+
+          <p>
+            <label for="email">Email</label><br />
+            <input type="email" id="email" name="email" required />
+          </p>
+
+          <p>
+            <label for="objet">Objet</label><br />
+            <select id="objet" name="objet">
+              <option value="job">Opportunité de travail</option>
+              <option value="project">Projet</option>
+              <option value="other">Autre</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="message">Message</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="40"
+              required
+            ></textarea>
+          </p>
+
+          <p><button type="submit">Envoyer</button></p>
+        </form>
+      </section>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>&copy; 2026 Portfolio Nour Ben Ali. All rights reserved.</p>
+      <p>
+        Cette page contient des informations personnelles. Nous vous prions de
+        ne pas traiter ces informations en-dehors de leur usgae prédestiné.
+      </p>
+      <nav>
+        <ul>
+          <li><a href="mailto:nourbenali26@gmail.com">Email</a></li>
+          <li><a href="https://github.com/nba26-prog">GitHub</a></li>
+        </ul>
+      </nav>
+
+      <p>Construit par HTML.</p>
+      <p><a href="#top">Revenir au haut de la page</a></p>
+    </footer>
+  </body>
+</html>
