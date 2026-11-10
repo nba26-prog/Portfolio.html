@@ -1,0 +1,196 @@
+/* ===== Style général de la page ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.7;
+  color: #25303b;
+  background-color: #faf8f5;
+}
+
+header,
+main,
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+button,
+label,
+caption,
+th {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+
+footer {
+  padding-bottom: 32px;
+  font-size: 14px;
+}
+
+/* ===== En-tête et navigation ===== */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+}
+
+/* ===== Liens ===== */
+
+a {
+  color: #2f6f6a;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #1f4f4b;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #2f6f6a;
+  outline-offset: 2px;
+}
+
+/* ===== Séparations des sections ===== */
+
+hr {
+  border: none;
+  border-top: 1px solid #8d8787;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+/* ===== Spécificités de chaque titre ===== */
+
+h1 {
+  font-size: 42px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 29px;
+  margin-top: 0;
+  color: #1f4f4b;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 32px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 0 0 4px;
+}
+
+/* ===== Projets ===== */
+
+article {
+  background-color: rgb(216, 237, 236);
+  border: 1px solid #8d8787;
+  border-left: 4px solid #2f6f6a;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+article p {
+  margin: 4px 0;
+}
+
+/* ===== Tableaux ===== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(216, 237, 236);
+  margin-bottom: 24px;
+}
+
+caption {
+  text-align: left;
+  font-style: italic;
+  padding-bottom: 8px;
+}
+
+/* ===== Formulaire ===== */
+
+form {
+  background-color: rgb(216, 237, 236);
+  border: 1px solid #8d8787;
+  border-radius: 8px;
+  padding: 20px;
+  padding-top: 14px;
+  padding-left: 32px;
+}
+
+.form-object {
+  width: 35%;
+  padding: 8px;
+  padding-right: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #8d8787;
+  border-radius: 4px;
+}
+
+input,
+select,
+textarea {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2f6f6a;
+  color: #faf8f5;
+  border: none;
+  border-radius: 4px;
+  padding: 11px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1f4f4b;
+}
+
+/* ===== Médias ===== */
+
+.avatar {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.video-demo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}

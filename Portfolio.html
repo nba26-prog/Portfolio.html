@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nour Ben Ali - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -28,6 +29,7 @@
       <section id="about-me">
         <h2>About me</h2>
         <img
+          class="avatar"
           src="avatarportfolio.jpg"
           alt="Photo professionnelle"
           width="200"
@@ -61,6 +63,7 @@
         <h3>Project demo</h3>
 
         <video
+          class="video-demo"
           src="videoportfolionba26.mp4"
           controls
           width="500"
@@ -177,12 +180,12 @@
         </ul>
 
         <h3>Languages</h3>
-        <ol>
+        <ul>
           <li>Français: Langue maternelle</li>
           <li>Anglais: Courant "C1/C2"</li>
           <li>Arabe : Courant</li>
           <li>Espagnol : Intermédiaire</li>
-        </ol>
+        </ul>
       </section>
 
       <hr />
@@ -208,7 +211,8 @@
 
           <p>
             <label for="objet">Objet</label><br />
-            <select id="objet" name="objet">
+            <select class="form-object" id="objet" name="objet">
+              <option value="" selected disabled hidden></option>
               <option value="job">Opportunité de travail</option>
               <option value="project">Projet</option>
               <option value="other">Autre</option>
@@ -237,7 +241,7 @@
       <p>&copy; 2026 Portfolio Nour Ben Ali. All rights reserved.</p>
       <p>
         Cette page contient des informations personnelles. Nous vous prions de
-        ne pas traiter ces informations en-dehors de leur usgae prédestiné.
+        ne pas traiter ces informations en-dehors de leur usage prédestiné.
       </p>
       <nav>
         <ul>
